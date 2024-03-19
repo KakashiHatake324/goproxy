@@ -1,8 +1,10 @@
 package goproxy
 
 import (
-	"crypto/tls"
-	"net/http"
+	tls "github.com/bogdanfinn/utls"
+
+	http "github.com/bogdanfinn/fhttp"
+
 	"regexp"
 )
 

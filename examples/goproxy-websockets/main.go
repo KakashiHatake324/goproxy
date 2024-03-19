@@ -2,10 +2,15 @@ package main
 
 import (
 	"crypto/tls"
+
+	tls "github.com/bogdanfinn/utls"
+
+	"log"
+
+	http "github.com/bogdanfinn/fhttp"
 	"github.com/elazarl/goproxy"
 	"github.com/gorilla/websocket"
-	"log"
-	"net/http"
+
 	"net/url"
 	"os"
 	"os/signal"

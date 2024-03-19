@@ -2,9 +2,10 @@ package main
 
 import (
 	"bytes"
+	http "github.com/bogdanfinn/fhttp"
 	"io/ioutil"
 	"log"
-	"net/http"
+
 	"net/http/httptest"
 	"net/url"
 	"strings"

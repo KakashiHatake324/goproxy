@@ -2,8 +2,8 @@ package main
 
 import (
 	"flag"
+	http "github.com/bogdanfinn/fhttp"
 	"log"
-	"net/http"
 
 	"github.com/elazarl/goproxy"
 )

@@ -3,7 +3,8 @@ package goproxy
 import (
 	"bytes"
 	"io/ioutil"
-	"net/http"
+	http "github.com/bogdanfinn/fhttp"
+
 )
 
 // Will generate a valid http response to the given request the response will have

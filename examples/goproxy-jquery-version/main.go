@@ -1,10 +1,11 @@
 package main
 
 import (
+	http "github.com/bogdanfinn/fhttp"
 	"github.com/elazarl/goproxy"
 	"github.com/elazarl/goproxy/ext/html"
 	"log"
-	"net/http"
+
 	"regexp"
 )
 

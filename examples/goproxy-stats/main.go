@@ -4,7 +4,8 @@ import (
 	"fmt"
 	"io"
 	"log"
-	. "net/http"
+	. http "github.com/bogdanfinn/fhttp"
+
 	"time"
 
 	"github.com/elazarl/goproxy"

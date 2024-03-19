@@ -1,8 +1,9 @@
 package goproxy
 
 import (
-	"crypto/tls"
 	"crypto/x509"
+
+	tls "github.com/bogdanfinn/utls"
 )
 
 func init() {

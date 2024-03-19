@@ -51,7 +51,8 @@ package main
 import (
     "github.com/elazarl/goproxy"
     "log"
-    "net/http"
+    http "github.com/bogdanfinn/fhttp"
+
 )
 
 func main() {

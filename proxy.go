@@ -2,10 +2,11 @@ package goproxy
 
 import (
 	"bufio"
+	http "github.com/bogdanfinn/fhttp"
 	"io"
 	"log"
 	"net"
-	"net/http"
+
 	"os"
 	"regexp"
 	"sync/atomic"

@@ -6,7 +6,9 @@ import (
 	"crypto/elliptic"
 	"crypto/rsa"
 	"crypto/sha1"
-	"crypto/tls"
+
+	tls "github.com/bogdanfinn/utls"
+
 	"crypto/x509"
 	"crypto/x509/pkix"
 	"fmt"

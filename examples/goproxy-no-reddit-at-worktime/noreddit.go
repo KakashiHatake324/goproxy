@@ -1,9 +1,10 @@
 package main
 
 import (
+	http "github.com/bogdanfinn/fhttp"
 	"github.com/elazarl/goproxy"
 	"log"
-	"net/http"
+
 	"time"
 )
 

@@ -1,6 +1,6 @@
 package transport
 
-import "net/http"
+import http "github.com/bogdanfinn/fhttp"
 
 type RoundTripper interface {
 	// RoundTrip executes a single HTTP transaction, returning

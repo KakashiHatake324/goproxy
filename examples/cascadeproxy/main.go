@@ -3,9 +3,10 @@ package main
 import (
 	"encoding/base64"
 	"fmt"
+	http "github.com/bogdanfinn/fhttp"
 	"io/ioutil"
 	"log"
-	"net/http"
+
 	"net/url"
 	"strings"
 	"time"

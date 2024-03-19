@@ -4,10 +4,11 @@ import (
 	"errors"
 	"flag"
 	"fmt"
+	http "github.com/bogdanfinn/fhttp"
 	"io"
 	"log"
 	"net"
-	"net/http"
+
 	"net/http/httputil"
 	"os"
 	"os/signal"

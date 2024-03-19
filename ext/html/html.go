@@ -4,9 +4,10 @@ package goproxy_html
 import (
 	"bytes"
 	"errors"
+	http "github.com/bogdanfinn/fhttp"
 	"io"
 	"io/ioutil"
-	"net/http"
+
 	"strings"
 
 	"github.com/elazarl/goproxy"

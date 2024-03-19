@@ -3,8 +3,9 @@ package auth
 import (
 	"bytes"
 	"encoding/base64"
+	http "github.com/bogdanfinn/fhttp"
 	"io/ioutil"
-	"net/http"
+
 	"strings"
 
 	"github.com/elazarl/goproxy"

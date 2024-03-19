@@ -2,10 +2,11 @@ package auth_test
 
 import (
 	"encoding/base64"
+	http "github.com/bogdanfinn/fhttp"
 	"io"
 	"io/ioutil"
 	"net"
-	"net/http"
+
 	"net/http/httptest"
 	"net/url"
 	"os"

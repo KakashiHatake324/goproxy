@@ -2,6 +2,7 @@ package goproxy_image
 
 import (
 	"bytes"
+	http "github.com/bogdanfinn/fhttp"
 	. "github.com/elazarl/goproxy"
 	"github.com/elazarl/goproxy/regretable"
 	"image"
@@ -9,7 +10,6 @@ import (
 	"image/jpeg"
 	"image/png"
 	"io/ioutil"
-	"net/http"
 )
 
 var RespIsImage = ContentTypeIs("image/gif",

@@ -2,13 +2,17 @@ package goproxy
 
 import (
 	"bufio"
-	"crypto/tls"
+
+	tls "github.com/bogdanfinn/utls"
+
 	"errors"
 	"fmt"
 	"io"
 	"io/ioutil"
 	"net"
-	"net/http"
+
+	http "github.com/bogdanfinn/fhttp"
+
 	"net/url"
 	"os"
 	"regexp"

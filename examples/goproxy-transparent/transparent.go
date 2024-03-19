@@ -6,9 +6,10 @@ import (
 	"context"
 	"flag"
 	"fmt"
+	http "github.com/bogdanfinn/fhttp"
 	"log"
 	"net"
-	"net/http"
+
 	"net/url"
 	"regexp"
 
